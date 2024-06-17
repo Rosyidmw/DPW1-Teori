@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #3081D0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100px;
+    padding-left: 10px;
+}
+
+header img {
+    height: 50px;
+}
+
+header h1 {
+    margin-left: 30px;
+}
+
+nav {
+    background-color: #00A9FF;
+    display: flex;
+    gap: 2rem;
+    height: 30px;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+nav a:hover {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+
+main {
+    display: flex;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+
+footer {
+    padding: 20px;
+    color: #fff;
+    background-color: #3081D0;
+    text-align: center;
+}
+
+
+/* Login Form */
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.card {
+    width: 100%;
+    max-width: 670px;
+    padding: 32px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card img {
+    height: 75px;
+}
+
+.login-input {
+    padding: 32px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    overflow: auto;
+}
+
+.login-input input {
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    padding: 8px;
+    margin: 8px 0 16px 0;
+    border: 1px solid #a0a0a0;
+    border-radius: 8px;
+}
+
+.login-input button {
+    margin-top: 32px;
+    padding: 8px 32px;
+    background-color: #F3F4F6;
+    border: 0;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #000000;
+    font-weight: normal;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5rem;
+}
+
+/* Register */
+
+.jenis_kelamin {
+    margin-top: 10px;
+}
+
+.jenis_kelamin {
+    display: flex;
+}
+
+.jenis_kelamin input {
+    margin-right: 10px;
+}
+
+.hobi {
+    display: flex;
+}
+
+select {
+    width: 200px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+}

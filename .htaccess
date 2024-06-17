@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+
+RewriteEngine On
+RewriteRule ^([a-zA-Z0-9_-]+)$ page.php?mod=$1
+RewriteRule ^detail/([^/\.]+)/?$ page.php?mod=detail$id=$1 [L]
+</IfModule>
